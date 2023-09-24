@@ -9,9 +9,9 @@ import XCTest
 @testable import Fasthub
 
 final class FasthubTests: XCTestCase {
-
+    
     func testExample() throws {
         XCTAssertTrue(true)
     }
-
+    
 }

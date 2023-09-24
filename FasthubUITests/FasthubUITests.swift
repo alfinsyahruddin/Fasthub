@@ -11,7 +11,7 @@ final class FasthubUITests: XCTestCase {
     
     func testExample() throws {
         let app = XCUIApplication()
-        app.launch()        
+        app.launch()
     }
     
 }
