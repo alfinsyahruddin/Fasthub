@@ -2,7 +2,7 @@
 //  FasthubApp.swift
 //  Fasthub
 //
-//  Created by M Alfin Syahruddin on 22/09/23.
+//  Created by Alfin on 26/09/23.
 //
 
 import SwiftUI

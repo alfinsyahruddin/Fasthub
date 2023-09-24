@@ -1,0 +1,64 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Run Unit Tests"
+  lane :test do
+    scan(scheme: "FasthubTests")
+  end
+
+  desc "Take screenshots"
+  lane :screenshot do
+    snapshot
+  end
+
+  desc "Build IPA"
+  lane :build do
+    enable_automatic_code_signing
+    increment_build_number
+    gym
+  end
+
+  desc "Create app on Apple Developer and App Store Connect sites"
+  lane :create_app do
+      produce
+  end
+
+  desc "Upload to TestFlight"
+  lane :upload_testflight do
+    upload_to_testflight(
+      ipa: "./fastlane/builds/Fasthub.ipa",      
+      skip_waiting_for_build_processing: true,
+      uses_non_exempt_encryption: true
+    )
+  end
+
+  desc "Upload to App Store"
+  lane :upload_appstore do
+    deliver
+  end
+
+  desc "Test, take screenshots, build, Create app, and upload to TestFlight & App Store"
+  lane :run_pipeline do
+    test
+    screenshot
+    build
+    create_app
+    upload_testflight
+    upload_appstore
+  end
+end

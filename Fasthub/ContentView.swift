@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Fasthub")
                 .font(.largeTitle.bold())
-
+            
             HStack(spacing: 24) {
                 Image("fastlane")
                     .resizable()

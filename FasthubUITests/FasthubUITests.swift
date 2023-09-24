@@ -11,7 +11,10 @@ final class FasthubUITests: XCTestCase {
     
     func testExample() throws {
         let app = XCUIApplication()
-        app.launch()        
+        setupSnapshot(app)
+        app.launch()
+        
+        snapshot("HOME_PAGE")
     }
     
 }

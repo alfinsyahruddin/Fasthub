@@ -7,59 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E00C79C2ABDD4CA0067F5E6 /* FasthubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C79B2ABDD4CA0067F5E6 /* FasthubApp.swift */; };
-		8E00C79E2ABDD4CA0067F5E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C79D2ABDD4CA0067F5E6 /* ContentView.swift */; };
-		8E00C7A02ABDD4CB0067F5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E00C79F2ABDD4CB0067F5E6 /* Assets.xcassets */; };
-		8E00C7A32ABDD4CB0067F5E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E00C7A22ABDD4CB0067F5E6 /* Preview Assets.xcassets */; };
-		8E00C7AD2ABDD4CB0067F5E6 /* FasthubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C7AC2ABDD4CB0067F5E6 /* FasthubTests.swift */; };
-		8E00C7CC2ABDE61A0067F5E6 /* FasthubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C7CB2ABDE61A0067F5E6 /* FasthubUITests.swift */; };
+		A17B76652AC314EA001ED2A1 /* FasthubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B76642AC314E9001ED2A1 /* FasthubApp.swift */; };
+		A17B76672AC314EA001ED2A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B76662AC314EA001ED2A1 /* ContentView.swift */; };
+		A17B76692AC314F0001ED2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17B76682AC314F0001ED2A1 /* Assets.xcassets */; };
+		A17B766C2AC314F1001ED2A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17B766B2AC314F1001ED2A1 /* Preview Assets.xcassets */; };
+		A17B76762AC314F1001ED2A1 /* FasthubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B76752AC314F1001ED2A1 /* FasthubTests.swift */; };
+		A17B76802AC314F1001ED2A1 /* FasthubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B767F2AC314F1001ED2A1 /* FasthubUITests.swift */; };
+		A17B768F2AC3186E001ED2A1 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B768E2AC3186D001ED2A1 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E00C7A92ABDD4CB0067F5E6 /* PBXContainerItemProxy */ = {
+		A17B76722AC314F1001ED2A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E00C7902ABDD4CA0067F5E6 /* Project object */;
+			containerPortal = A17B76592AC314E9001ED2A1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E00C7972ABDD4CA0067F5E6;
+			remoteGlobalIDString = A17B76602AC314E9001ED2A1;
 			remoteInfo = Fasthub;
 		};
-		8E00C7CF2ABDE61A0067F5E6 /* PBXContainerItemProxy */ = {
+		A17B767C2AC314F1001ED2A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E00C7902ABDD4CA0067F5E6 /* Project object */;
+			containerPortal = A17B76592AC314E9001ED2A1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E00C7972ABDD4CA0067F5E6;
+			remoteGlobalIDString = A17B76602AC314E9001ED2A1;
 			remoteInfo = Fasthub;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E00C7982ABDD4CA0067F5E6 /* Fasthub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fasthub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E00C79B2ABDD4CA0067F5E6 /* FasthubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasthubApp.swift; sourceTree = "<group>"; };
-		8E00C79D2ABDD4CA0067F5E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8E00C79F2ABDD4CB0067F5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E00C7A22ABDD4CB0067F5E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E00C7A82ABDD4CB0067F5E6 /* FasthubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FasthubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E00C7AC2ABDD4CB0067F5E6 /* FasthubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasthubTests.swift; sourceTree = "<group>"; };
-		8E00C7C92ABDE61A0067F5E6 /* FasthubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FasthubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E00C7CB2ABDE61A0067F5E6 /* FasthubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasthubUITests.swift; sourceTree = "<group>"; };
+		A17B76612AC314E9001ED2A1 /* Fasthub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fasthub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17B76642AC314E9001ED2A1 /* FasthubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasthubApp.swift; sourceTree = "<group>"; };
+		A17B76662AC314EA001ED2A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A17B76682AC314F0001ED2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17B766B2AC314F1001ED2A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17B76712AC314F1001ED2A1 /* FasthubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FasthubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17B76752AC314F1001ED2A1 /* FasthubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasthubTests.swift; sourceTree = "<group>"; };
+		A17B767B2AC314F1001ED2A1 /* FasthubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FasthubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17B767F2AC314F1001ED2A1 /* FasthubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasthubUITests.swift; sourceTree = "<group>"; };
+		A17B768E2AC3186D001ED2A1 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E00C7952ABDD4CA0067F5E6 /* Frameworks */ = {
+		A17B765E2AC314E9001ED2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E00C7A52ABDD4CB0067F5E6 /* Frameworks */ = {
+		A17B766E2AC314F1001ED2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E00C7C62ABDE61A0067F5E6 /* Frameworks */ = {
+		A17B76782AC314F1001ED2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,57 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E00C78F2ABDD4CA0067F5E6 = {
+		A17B76582AC314E9001ED2A1 = {
 			isa = PBXGroup;
 			children = (
-				8E00C79A2ABDD4CA0067F5E6 /* Fasthub */,
-				8E00C7AB2ABDD4CB0067F5E6 /* FasthubTests */,
-				8E00C7CA2ABDE61A0067F5E6 /* FasthubUITests */,
-				8E00C7992ABDD4CA0067F5E6 /* Products */,
+				A17B76632AC314E9001ED2A1 /* Fasthub */,
+				A17B76742AC314F1001ED2A1 /* FasthubTests */,
+				A17B767E2AC314F1001ED2A1 /* FasthubUITests */,
+				A17B76622AC314E9001ED2A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E00C7992ABDD4CA0067F5E6 /* Products */ = {
+		A17B76622AC314E9001ED2A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E00C7982ABDD4CA0067F5E6 /* Fasthub.app */,
-				8E00C7A82ABDD4CB0067F5E6 /* FasthubTests.xctest */,
-				8E00C7C92ABDE61A0067F5E6 /* FasthubUITests.xctest */,
+				A17B76612AC314E9001ED2A1 /* Fasthub.app */,
+				A17B76712AC314F1001ED2A1 /* FasthubTests.xctest */,
+				A17B767B2AC314F1001ED2A1 /* FasthubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E00C79A2ABDD4CA0067F5E6 /* Fasthub */ = {
+		A17B76632AC314E9001ED2A1 /* Fasthub */ = {
 			isa = PBXGroup;
 			children = (
-				8E00C79B2ABDD4CA0067F5E6 /* FasthubApp.swift */,
-				8E00C79D2ABDD4CA0067F5E6 /* ContentView.swift */,
-				8E00C79F2ABDD4CB0067F5E6 /* Assets.xcassets */,
-				8E00C7A12ABDD4CB0067F5E6 /* Preview Content */,
+				A17B76642AC314E9001ED2A1 /* FasthubApp.swift */,
+				A17B76662AC314EA001ED2A1 /* ContentView.swift */,
+				A17B76682AC314F0001ED2A1 /* Assets.xcassets */,
+				A17B766A2AC314F1001ED2A1 /* Preview Content */,
 			);
 			path = Fasthub;
 			sourceTree = "<group>";
 		};
-		8E00C7A12ABDD4CB0067F5E6 /* Preview Content */ = {
+		A17B766A2AC314F1001ED2A1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8E00C7A22ABDD4CB0067F5E6 /* Preview Assets.xcassets */,
+				A17B766B2AC314F1001ED2A1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8E00C7AB2ABDD4CB0067F5E6 /* FasthubTests */ = {
+		A17B76742AC314F1001ED2A1 /* FasthubTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E00C7AC2ABDD4CB0067F5E6 /* FasthubTests.swift */,
+				A17B76752AC314F1001ED2A1 /* FasthubTests.swift */,
 			);
 			path = FasthubTests;
 			sourceTree = "<group>";
 		};
-		8E00C7CA2ABDE61A0067F5E6 /* FasthubUITests */ = {
+		A17B767E2AC314F1001ED2A1 /* FasthubUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8E00C7CB2ABDE61A0067F5E6 /* FasthubUITests.swift */,
+				A17B767F2AC314F1001ED2A1 /* FasthubUITests.swift */,
+				A17B768E2AC3186D001ED2A1 /* SnapshotHelper.swift */,
 			);
 			path = FasthubUITests;
 			sourceTree = "<group>";
@@ -127,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E00C7972ABDD4CA0067F5E6 /* Fasthub */ = {
+		A17B76602AC314E9001ED2A1 /* Fasthub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E00C7BC2ABDD4CB0067F5E6 /* Build configuration list for PBXNativeTarget "Fasthub" */;
+			buildConfigurationList = A17B76852AC314F1001ED2A1 /* Build configuration list for PBXNativeTarget "Fasthub" */;
 			buildPhases = (
-				8E00C7942ABDD4CA0067F5E6 /* Sources */,
-				8E00C7952ABDD4CA0067F5E6 /* Frameworks */,
-				8E00C7962ABDD4CA0067F5E6 /* Resources */,
+				A17B765D2AC314E9001ED2A1 /* Sources */,
+				A17B765E2AC314E9001ED2A1 /* Frameworks */,
+				A17B765F2AC314E9001ED2A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,72 +144,69 @@
 			);
 			name = Fasthub;
 			productName = Fasthub;
-			productReference = 8E00C7982ABDD4CA0067F5E6 /* Fasthub.app */;
+			productReference = A17B76612AC314E9001ED2A1 /* Fasthub.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E00C7A72ABDD4CB0067F5E6 /* FasthubTests */ = {
+		A17B76702AC314F1001ED2A1 /* FasthubTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E00C7BF2ABDD4CB0067F5E6 /* Build configuration list for PBXNativeTarget "FasthubTests" */;
+			buildConfigurationList = A17B76882AC314F1001ED2A1 /* Build configuration list for PBXNativeTarget "FasthubTests" */;
 			buildPhases = (
-				8E00C7A42ABDD4CB0067F5E6 /* Sources */,
-				8E00C7A52ABDD4CB0067F5E6 /* Frameworks */,
-				8E00C7A62ABDD4CB0067F5E6 /* Resources */,
+				A17B766D2AC314F1001ED2A1 /* Sources */,
+				A17B766E2AC314F1001ED2A1 /* Frameworks */,
+				A17B766F2AC314F1001ED2A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E00C7AA2ABDD4CB0067F5E6 /* PBXTargetDependency */,
+				A17B76732AC314F1001ED2A1 /* PBXTargetDependency */,
 			);
 			name = FasthubTests;
 			productName = FasthubTests;
-			productReference = 8E00C7A82ABDD4CB0067F5E6 /* FasthubTests.xctest */;
+			productReference = A17B76712AC314F1001ED2A1 /* FasthubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E00C7C82ABDE61A0067F5E6 /* FasthubUITests */ = {
+		A17B767A2AC314F1001ED2A1 /* FasthubUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E00C7D12ABDE61A0067F5E6 /* Build configuration list for PBXNativeTarget "FasthubUITests" */;
+			buildConfigurationList = A17B768B2AC314F1001ED2A1 /* Build configuration list for PBXNativeTarget "FasthubUITests" */;
 			buildPhases = (
-				8E00C7C52ABDE61A0067F5E6 /* Sources */,
-				8E00C7C62ABDE61A0067F5E6 /* Frameworks */,
-				8E00C7C72ABDE61A0067F5E6 /* Resources */,
+				A17B76772AC314F1001ED2A1 /* Sources */,
+				A17B76782AC314F1001ED2A1 /* Frameworks */,
+				A17B76792AC314F1001ED2A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E00C7D02ABDE61A0067F5E6 /* PBXTargetDependency */,
+				A17B767D2AC314F1001ED2A1 /* PBXTargetDependency */,
 			);
 			name = FasthubUITests;
 			productName = FasthubUITests;
-			productReference = 8E00C7C92ABDE61A0067F5E6 /* FasthubUITests.xctest */;
+			productReference = A17B767B2AC314F1001ED2A1 /* FasthubUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E00C7902ABDD4CA0067F5E6 /* Project object */ = {
+		A17B76592AC314E9001ED2A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					8E00C7972ABDD4CA0067F5E6 = {
-						CreatedOnToolsVersion = 14.3;
-						ProvisioningStyle = Automatic;
+					A17B76602AC314E9001ED2A1 = {
+						CreatedOnToolsVersion = 14.2;
 					};
-					8E00C7A72ABDD4CB0067F5E6 = {
-						CreatedOnToolsVersion = 14.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8E00C7972ABDD4CA0067F5E6;
+					A17B76702AC314F1001ED2A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A17B76602AC314E9001ED2A1;
 					};
-					8E00C7C82ABDE61A0067F5E6 = {
-						CreatedOnToolsVersion = 14.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8E00C7972ABDD4CA0067F5E6;
+					A17B767A2AC314F1001ED2A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A17B76602AC314E9001ED2A1;
 					};
 				};
 			};
-			buildConfigurationList = 8E00C7932ABDD4CA0067F5E6 /* Build configuration list for PBXProject "Fasthub" */;
+			buildConfigurationList = A17B765C2AC314E9001ED2A1 /* Build configuration list for PBXProject "Fasthub" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E00C78F2ABDD4CA0067F5E6;
-			productRefGroup = 8E00C7992ABDD4CA0067F5E6 /* Products */;
+			mainGroup = A17B76582AC314E9001ED2A1;
+			productRefGroup = A17B76622AC314E9001ED2A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E00C7972ABDD4CA0067F5E6 /* Fasthub */,
-				8E00C7A72ABDD4CB0067F5E6 /* FasthubTests */,
-				8E00C7C82ABDE61A0067F5E6 /* FasthubUITests */,
+				A17B76602AC314E9001ED2A1 /* Fasthub */,
+				A17B76702AC314F1001ED2A1 /* FasthubTests */,
+				A17B767A2AC314F1001ED2A1 /* FasthubUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E00C7962ABDD4CA0067F5E6 /* Resources */ = {
+		A17B765F2AC314E9001ED2A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E00C7A32ABDD4CB0067F5E6 /* Preview Assets.xcassets in Resources */,
-				8E00C7A02ABDD4CB0067F5E6 /* Assets.xcassets in Resources */,
+				A17B766C2AC314F1001ED2A1 /* Preview Assets.xcassets in Resources */,
+				A17B76692AC314F0001ED2A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E00C7A62ABDD4CB0067F5E6 /* Resources */ = {
+		A17B766F2AC314F1001ED2A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E00C7C72ABDE61A0067F5E6 /* Resources */ = {
+		A17B76792AC314F1001ED2A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,48 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E00C7942ABDD4CA0067F5E6 /* Sources */ = {
+		A17B765D2AC314E9001ED2A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E00C79E2ABDD4CA0067F5E6 /* ContentView.swift in Sources */,
-				8E00C79C2ABDD4CA0067F5E6 /* FasthubApp.swift in Sources */,
+				A17B76672AC314EA001ED2A1 /* ContentView.swift in Sources */,
+				A17B76652AC314EA001ED2A1 /* FasthubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E00C7A42ABDD4CB0067F5E6 /* Sources */ = {
+		A17B766D2AC314F1001ED2A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E00C7AD2ABDD4CB0067F5E6 /* FasthubTests.swift in Sources */,
+				A17B76762AC314F1001ED2A1 /* FasthubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E00C7C52ABDE61A0067F5E6 /* Sources */ = {
+		A17B76772AC314F1001ED2A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E00C7CC2ABDE61A0067F5E6 /* FasthubUITests.swift in Sources */,
+				A17B76802AC314F1001ED2A1 /* FasthubUITests.swift in Sources */,
+				A17B768F2AC3186E001ED2A1 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E00C7AA2ABDD4CB0067F5E6 /* PBXTargetDependency */ = {
+		A17B76732AC314F1001ED2A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E00C7972ABDD4CA0067F5E6 /* Fasthub */;
-			targetProxy = 8E00C7A92ABDD4CB0067F5E6 /* PBXContainerItemProxy */;
+			target = A17B76602AC314E9001ED2A1 /* Fasthub */;
+			targetProxy = A17B76722AC314F1001ED2A1 /* PBXContainerItemProxy */;
 		};
-		8E00C7D02ABDE61A0067F5E6 /* PBXTargetDependency */ = {
+		A17B767D2AC314F1001ED2A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E00C7972ABDD4CA0067F5E6 /* Fasthub */;
-			targetProxy = 8E00C7CF2ABDE61A0067F5E6 /* PBXContainerItemProxy */;
+			target = A17B76602AC314E9001ED2A1 /* Fasthub */;
+			targetProxy = A17B767C2AC314F1001ED2A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8E00C7BA2ABDD4CB0067F5E6 /* Debug */ = {
+		A17B76832AC314F1001ED2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -354,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		8E00C7BB2ABDD4CB0067F5E6 /* Release */ = {
+		A17B76842AC314F1001ED2A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +409,7 @@
 			};
 			name = Release;
 		};
-		8E00C7BD2ABDD4CB0067F5E6 /* Debug */ = {
+		A17B76862AC314F1001ED2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -424,7 +425,6 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,7 +438,7 @@
 			};
 			name = Debug;
 		};
-		8E00C7BE2ABDD4CB0067F5E6 /* Release */ = {
+		A17B76872AC314F1001ED2A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -454,7 +454,6 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,16 +467,16 @@
 			};
 			name = Release;
 		};
-		8E00C7C02ABDD4CB0067F5E6 /* Debug */ = {
+		A17B76892AC314F1001ED2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 289XASJHAK;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.alfin.FasthubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,16 +487,16 @@
 			};
 			name = Debug;
 		};
-		8E00C7C12ABDD4CB0067F5E6 /* Release */ = {
+		A17B768A2AC314F1001ED2A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 289XASJHAK;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.alfin.FasthubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,11 +507,12 @@
 			};
 			name = Release;
 		};
-		8E00C7D22ABDE61A0067F5E6 /* Debug */ = {
+		A17B768C2AC314F1001ED2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 289XASJHAK;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -525,11 +525,12 @@
 			};
 			name = Debug;
 		};
-		8E00C7D32ABDE61A0067F5E6 /* Release */ = {
+		A17B768D2AC314F1001ED2A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 289XASJHAK;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -545,43 +546,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E00C7932ABDD4CA0067F5E6 /* Build configuration list for PBXProject "Fasthub" */ = {
+		A17B765C2AC314E9001ED2A1 /* Build configuration list for PBXProject "Fasthub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E00C7BA2ABDD4CB0067F5E6 /* Debug */,
-				8E00C7BB2ABDD4CB0067F5E6 /* Release */,
+				A17B76832AC314F1001ED2A1 /* Debug */,
+				A17B76842AC314F1001ED2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E00C7BC2ABDD4CB0067F5E6 /* Build configuration list for PBXNativeTarget "Fasthub" */ = {
+		A17B76852AC314F1001ED2A1 /* Build configuration list for PBXNativeTarget "Fasthub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E00C7BD2ABDD4CB0067F5E6 /* Debug */,
-				8E00C7BE2ABDD4CB0067F5E6 /* Release */,
+				A17B76862AC314F1001ED2A1 /* Debug */,
+				A17B76872AC314F1001ED2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E00C7BF2ABDD4CB0067F5E6 /* Build configuration list for PBXNativeTarget "FasthubTests" */ = {
+		A17B76882AC314F1001ED2A1 /* Build configuration list for PBXNativeTarget "FasthubTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E00C7C02ABDD4CB0067F5E6 /* Debug */,
-				8E00C7C12ABDD4CB0067F5E6 /* Release */,
+				A17B76892AC314F1001ED2A1 /* Debug */,
+				A17B768A2AC314F1001ED2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E00C7D12ABDE61A0067F5E6 /* Build configuration list for PBXNativeTarget "FasthubUITests" */ = {
+		A17B768B2AC314F1001ED2A1 /* Build configuration list for PBXNativeTarget "FasthubUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E00C7D22ABDE61A0067F5E6 /* Debug */,
-				8E00C7D32ABDE61A0067F5E6 /* Release */,
+				A17B768C2AC314F1001ED2A1 /* Debug */,
+				A17B768D2AC314F1001ED2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E00C7902ABDD4CA0067F5E6 /* Project object */;
+	rootObject = A17B76592AC314E9001ED2A1 /* Project object */;
 }
